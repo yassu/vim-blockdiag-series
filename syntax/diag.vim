@@ -36,7 +36,7 @@ syn keyword  diagTodo contained TODO FIXME XXX NOTE NOTES
 syn region   diagString    start=+"+ skip=+\\\\\|\\"+ end=+"+
 
 " General keywords
-syn keyword  diagKeyword  diagram group class
+syn keyword  diagKeyword  diagram group class plugin
 
 " Diagram attributes
 syn keyword  diagType node_width node_height span_width span_height
